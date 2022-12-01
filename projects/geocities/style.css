@@ -1,0 +1,51 @@
+body{
+    background: url("https://web.archive.org/web/20060505065840/http://espanol.geocities.com:80/itzman_mg/space.gif");
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   background-attachment: fixed;
+  padding: 3rem;
+  }
+    
+    .container{
+  text-align: center;
+  padding: 2em;
+  }
+  .box {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    padding: 5rem;
+    padding-left: 0rem;
+    right: 100px;
+   
+    top: 100px;
+    
+  }
+  
+  img {
+      width: 100%;
+      display: block;
+      padding: 2rem;
+  }
+  
+  .center {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    padding: 5rem;
+    top: 400px;
+    right: 3rem;
+  }
+  
+  .portal {
+    width: 300px;
+    height: 300px;
+  position: fixed;
+    padding: 5rem;
+    top: 250px;
+    left: 5px;
+  }
