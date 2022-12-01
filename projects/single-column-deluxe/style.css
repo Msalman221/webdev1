@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Quicksand:wght@400;600&display=swap');
+
+:root {
+ --color-body-text: #f0efec;
+ --color-body-bg: #0e1615;
+ --color-links: #473825;
+ --color-header-footer-bg: #f09d5f; 
+ --padding-header-footer: 3rem;
+}
+
+
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+
+font-family:'Quicksand', sans-serif;
+    padding: 12px;
+    color: #222;
+    background-color: var(--color-body-bg);
+    color: var(--color-body-text);
+}
+
+h1, h2, h3 {
+   font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+font-size: 3rem;
+}
+
+h2 {
+font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+}
+
+a{
+ color: var(--color-links);
+}
+
+a:hover {
+  color: green;
+}
+
+p {
+    line-height: 1.65;
+}
+
+section p {
+ margin: 2rem 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+header {
+  background-color: var(--color-header-footer-bg);
+  padding: var(--padding-header-footer);
+  margin-bottom: 5rem;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--color-header-footer-bg); 
+  padding: var(--padding-header-footer);
+}
+
+/* utility class */
+
+.center {
+    max-width: 30rem;
+    margin: 0 auto; 
+}
