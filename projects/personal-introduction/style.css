@@ -1,0 +1,97 @@
+.title-word {
+    animation: color-animation 4s linear infinite;
+  In this statement, one can understand what Speilberg experienced in his childhood. He wanted to make his films so everybody could interpellate, enjoy, and feel something from them.}
+  
+  .title-word-1 {
+    --color-1: #F4D5F5;
+    --color-2: #ADD8E6;
+    --color-3: #FFA500;
+  }
+  
+  .title-word-2 {
+    --color-1: #6EB5FF;
+    --color-2: #DBFFD6;
+    --color-3: #FF9CEE;
+  }
+  
+  .title-word-3 {
+    --color-1: #FFC9DE;
+    --color-2: #6EB5FF;
+    --color-3: #FFCBC1;
+  }
+  
+  .title-word-4 {
+    --color-1: #D5AAFF;
+    --color-2: #FFCBC1;
+    --color-3: #AFF8DB;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  
+  
+  .container {
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    height: 100vh
+  }
+  
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 8.5vw;
+    text-transform: uppercase;
+  }
+  
+  h1 {
+  font-family: Impact;
+  font-size: Bigger;
+  Color: Orange;
+  }
+  h2 {
+  font-family: Impact;
+  font-size: Bigger;
+  Color: Red;
+  }  
+  img {
+    display: block;
+    max-width: 50%;
+    max-height: 30%;
+  }
+  h3 {
+  font-family: Impact;
+  font-size: Bigger;
+  Color: #AF69EF;
+  }
+  h4 {
+  font-family: Impact;
+  font-size: Bigger;
+  Color: #FFABAB;
+  }
+  h5 {
+  font-family: Impact;
+  font-size: Bigger;
+  Color: #6EB5FF;
+  }
+  
+  p {
+  font-family: Impact;
+  font-size: Bigger;
+  Color: #ACD0C0;
+  }
+  h6 {
+  font-family: Impact;
+  font-size: 100px;
+  Color: #F9E076;
+  }
+  
+  
