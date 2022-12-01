@@ -1,6 +1,8 @@
  
  @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Monoton&display=swap'); 
 
+ @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Quicksand:wght@400;600&display=swap');
+
 * {
     margin: 0rem;
     padding: 0rem;
@@ -27,6 +29,7 @@ padding: 1rem;
     margin-right: 5rem;
     margin-bottom: 2rem;
     margin-top: 1rem;
+    font-family: "dosis";
     
   }
   a:hover {
@@ -49,23 +52,21 @@ head {
 
 h1 {
     color: blue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'dosis';
     padding: .5rem;
     font-size: 40px;
 }
 
 h2 {
-    padding: .5rem;
-    font-family: 'covered by your grace';
-    font-size: 30px;
+    padding: 1.8rem;
+    font-family: 'dosis';
+    font-size: 25px;
+    color:aqua;
+    padding-bottom: -1rem;
 }
 
 h3 {
     font-family: 'covered by your grace';
     font-size: x-large;
     padding: .5rem;
-}
-
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
