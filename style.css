@@ -5,68 +5,83 @@
 
 * {
     margin: 0rem;
-    padding: 0rem;
-    background-color: orange;
   }
 
-  nav {
-  
-padding: 1rem;
+  :root {
+    --color-body-bg: orange;
+    --color-links: purple;
+    --color-header-bg: white;
+    --padding-header: 1rem;
   }
+
+  body {
+    background-color: var(--color-body-bg);
+      width: 80%;
+      max-width: 700px;
+        margin: 0 auto;
+        padding: 12px;  
+  }
+
+  h1 {
+    color: blue;
+    font-family: 'dosis';
+    font-size: 40px;
+    padding: 12px;
+}
+
+h2 {
+   
+  font-family: 'dosis';
+  font-size: 25px;
+  padding: 12px;
+  color:aqua;  
+}
+
+h3 {
+  font-family: 'covered by your grace';
+  font-size: x-large;
+  padding: 12px;
+}
+
+a {
+  font-family: "dosis";
+  color: var(--color-links); 
+}
+
+a:hover {
+  color: white;
+}
+
+nav {
+  padding: 12px;
+}
   
   nav a {
    text-decoration: none; 
-   margin-right: 7rem;  
-   padding-right: 40rem;
    line-height: 1.8rem;
-   padding-left: 1rem;
-   padding-top: .3rem;
-   padding-bottom: 1rem;
   }
-
-  a {
-    color: purple;
-    margin-right: 5rem;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    font-family: "dosis";
-    
-  }
-  a:hover {
-    color: white;
-  }
-
-  section {
-    margin-bottom: 6rem;
-  }
-
-body{
-    max-width: 60rem;
-    margin: 0 auto;
-}
 
 head {
     background-color: blue;
     padding: 5rem;
+    color: white;
 }
 
-h1 {
-    color: blue;
-    font-family: 'dosis';
-    padding: .5rem;
-    font-size: 40px;
+header {
+  background-color: var(--color-header-bg);
+  text-align: center;
+  width: 100%;
+  padding: var(--padding-header);
+  }
+
+.center {
+  max-width: 40rem;
+  margin: 0 auto;
 }
 
-h2 {
-    padding: 1.8rem;
-    font-family: 'dosis';
-    font-size: 25px;
-    color:aqua;
-    padding-bottom: -1rem;
+.section {
+  margin:0rem;
 }
 
-h3 {
-    font-family: 'covered by your grace';
-    font-size: x-large;
-    padding: .5rem;
-}
+
+
